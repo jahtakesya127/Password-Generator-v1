@@ -6,11 +6,7 @@ def mixer():
 	global password
 	password = "".join(temp)
 	print(password)
-	clip()
-
-def clip():
 	xerox.copy(password)
-
 if len(argv) == 1:
 	length = 8
 	lst = string.ascii_lowercase
