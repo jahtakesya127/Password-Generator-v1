@@ -1,6 +1,5 @@
-import random, string, argparse
+import random, string, argparse, xerox
 from sys import argv
-import xerox
 
 def mixer():
 	temp = random.sample(lst, length)
